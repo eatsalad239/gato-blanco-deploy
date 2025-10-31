@@ -20,7 +20,7 @@
         "backup:db": "docker exec -t $(docker-compose ps -q database) pg_dumpall -c -U gato_blanco_user > backup_$(date +%Y%m%d_%H%M%S).sql"
     },
     "dependencies": {
-        "@github/spark": "^0.39.0",
+        "@github/spark": "^0.41.17",
         "@heroicons/react": "^2.2.0",
         "@hookform/resolvers": "^5.2.2",
         "@octokit/core": "^6.1.4",
